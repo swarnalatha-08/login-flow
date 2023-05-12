@@ -1,0 +1,261 @@
+.loginFormMainDiv {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.loginform {
+  width: 440px;
+  background-color: #fff;
+  padding: 40px 32px;
+  border-radius: 12px;
+  box-shadow: 1px 3px 20px 1px #c2c2c2;
+}
+.labelInput {
+  padding: 10px;
+}
+.welcome {
+  font-size: 28px;
+  font-weight: bold;
+  color: #212b36;
+}
+.n {
+  color: #2065d1;
+}
+.description {
+  margin: 12px 0 0;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: left;
+  color: #454f5b;
+}
+.addNumDiv {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+.addNumLabel {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.addNumInput {
+  min-height: 48px;
+  font-size: 14px;
+  padding: 0 12px;
+  border: 1px solid #c4cdd5;
+  border-radius: 8px;
+}
+.addNumInput:focus {
+  /* border: 1px solid #2065d1; */
+ border: none;
+}
+.addNumInput:focus,
+.addNumInput:active {
+  background-color: #edf6fd;
+}
+
+.passwordDiv {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32px;
+}
+.passwordLabel {
+  font-size: 14px;
+  padding-bottom: 8px;
+}
+.passwordInput {
+  min-height: 48px;
+  font-size: 14px;
+  padding: 0 12px;
+  border: 1px solid #c4cdd5;
+  border-radius: 8px;
+}
+/* .passwordInput:focus::after{
+    background-color: #fff
+} */
+.passwordInput:focus,
+.passwordInput:active {
+  background-color: #edf6fd;
+  border: none;
+}
+.visibleIcon {
+  padding: 14px 8px 8px 0;
+}
+.checkBoxInputDiv {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-top: 32px;
+}
+.forgotPasswordDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 32px;
+}
+
+.LoginBtn {
+  height: 48px!important;
+  width: 180px !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: flex-start !important;
+  gap: 12px !important; 
+  padding: 12px 24px !important;
+  border-radius: 32px !important;
+
+}
+.TCandPP {
+  color: #212b36;
+  font-size: 14px;
+}
+@media only screen and (min-device-width: 200px) and (max-device-width: 540px) {
+  .loginFormMainDiv {
+    width: 100%;
+    /* height: 100vh; */
+  }
+  .welcome {
+    font-size: 24px;
+  }
+  .loginform {
+    padding: 25px 25px 0px 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .LoginBtn {
+    width: 100px;
+    height: 35px;
+    align-items: center;
+  }
+  .addNumInput {
+    height: 28px;
+  }
+  .passwordInput {
+    height: 28px;
+  }
+  .visibleIcon {
+    padding: 7px 4px;
+  }
+}
+@media only screen and (width: 820px) {
+  .loginFormMainDiv {
+    width: 100vw;
+  }
+}
+@media only screen and (width: 768px) {
+  .loginFormMainDiv {
+    width: 100%;
+  }
+}
+@media only screen and (width: 912px) {
+  .loginFormMainDiv {
+    width: 100%;
+  }
+}
+@media only screen and (width: 1024px) {
+  .loginFormMainDiv {
+    width: 560px;
+  }
+  .loginform{
+    width: 440px;
+    padding: 30px 30px 10px 32px;
+  }
+  .addNumInput {
+    height: 28px;
+  }
+  .passwordInput {
+    height: 28px;
+  }
+  .visibleIcon {
+    padding: 7px 4px;
+  }
+  .LoginBtn {
+    width: 120px;
+    height: 35px;
+    align-items: center;
+  }
+}
+@media only screen and (width: 1920px) {
+  .loginform {
+    width: 550px;
+    height: 430px;
+  }
+}
+@media only screen and (width: 540px) {
+  .loginform {
+    height: 560px;
+  }
+  .LoginBtn {
+    width: 180px !important;
+    height: 35px;
+    align-items: center;
+  }
+}
+@media only screen and (width: 375px) {
+  .loginform {
+    width: 320px;
+    height: 78vh;
+   margin:  0;
+  }
+  .forgotPasswordDiv {
+    font-size: 12px;
+  }
+  .LoginBtn{
+    width:100px !important;
+  }
+  .addNumInput {
+    height: 28px;
+  }
+  .passwordInput {
+    height: 28px;
+  }
+  .PasswordDivWithInputAndIcon{
+    display: flex;
+    align-items: center;
+    border: 1px solid red;
+  }
+}
+@media only screen and (width: 414px) {
+  .loginform {
+    height: 520px;
+  }
+}
+@media only screen and (width: 390px) {
+  .loginform {
+    height: 520px;
+  }
+  .LoginBtn{
+    width:100px !important;
+  }
+}
+@media only screen and (width: 360px) {
+  .loginform {
+    height: 520px;
+  }
+  .LoginBtn{
+    width:100px !important;
+  }
+}
+@media only screen and (width: 393px) {
+  .loginform {
+    height: 520px;
+  }
+  .LoginBtn{
+    width:100px !important;
+  }
+}
+@media only screen and (width: 412px) {
+  .loginform {
+    height: 520px;
+  }
+  .LoginBtn{
+    width:110px !important;
+  }
+}
+@media screen and (width: 1920px) {
+  .loginform{
+    height: 540px;
+  }
+}

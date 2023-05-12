@@ -1,0 +1,34 @@
+
+.dailogueRightDiv{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+}
+.dataDiv{
+  display: flex;
+  flex-direction: column;
+  width: 316px;
+}
+.forgotPasswordHeading{
+    font-size: 28px;
+    line-height: 1.5;
+    color: #212b36;
+    margin-bottom: 24px;
+}
+.inputAdmNUm{
+    height: 48px;
+    background-color:#edf6fd;
+    border-radius: 8px;
+    border: none;
+    padding: 14px 8px ;
+    margin-bottom: 24px;
+}
+.proceedBtn{
+  width: 100%;
+  height: 56px;
+  border-radius: 32px;
+  background-color: #ec8936;
+  color: #000;
+  border: none;
+}

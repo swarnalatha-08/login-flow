@@ -1,0 +1,29 @@
+/* .layoutDiv1 {
+  display: flex;
+  align-items: center;
+  background-color: red;
+} */
+.layoutDiv2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px 60px 8px 50px;
+  background-color: #fff;
+}
+.loginBtn {
+  background-color: #174eb3;
+  color: #fff;
+  width: 108px;
+  height: 48px;
+  padding: 12px 32px;
+  border-radius: 32px;
+  border: 1px solid #174eb3;
+  /* position: relative;
+  top: 0; */
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 540px){
+  .layoutDiv1{
+    width: 100% !important; 
+  }
+}

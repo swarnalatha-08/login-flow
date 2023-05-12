@@ -1,0 +1,36 @@
+.dailogueDiv{
+    /* width: 656px; */
+    padding: 40px 32px;
+    display: flex;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+    position: absolute;
+    top: 162px;
+    left: 330px;
+    gap: 32px;
+  }
+  .forgotPasswordHeading{
+    font-size: 28px;
+    line-height: 1.5;
+    color: #212b36;
+    margin-bottom: 24px;
+}
+@media screen and (width: 1536px) {
+    .dailogueDiv{
+        left: 400px;
+    }
+    
+}
+@media screen and (width: 1920px) {
+    .dailogueDiv{
+        left: 550px;
+    }
+    
+}
+@media screen and (width: 375px) {
+    .dailogueDiv{
+       display: none;
+    }
+    
+}

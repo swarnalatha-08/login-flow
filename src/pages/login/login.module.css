@@ -1,0 +1,11 @@
+.loginDiv {
+  display: flex;
+  background-color: #f4f6f8;
+  height: 89vh;
+}
+@media screen and (min-width: 1366px) and (max-width: 1920px) {
+    .loginDiv{
+        height: 92vh;
+    }
+}
+

@@ -1,0 +1,31 @@
+.bgImgs {
+  background: url("../../../public/images/PatternDoodles.svg") 0 172px no-repeat,
+    url("../../../public/images/background-pattern.svg") 0 0 no-repeat;
+  height: 89vh;
+  background-size: cover, cover;
+  background-repeat: no-repeat;
+}
+.BgBlur {
+  /* background-color: red; */
+  filter: blur(196px);
+  background-color: #e9f0fa;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 1140px;
+  height: 300px;
+  z-index: -1;
+}
+@media screen and (device-width: 1440px) {
+  .bgImgs {
+    background: url("../../../public/images/PatternDoodles.svg") 0 200px
+        no-repeat,
+      url("../../../public/images/background-pattern.svg") 0 0 no-repeat;
+  }
+}
+@media screen and (width: 1920px) {
+  .BgBlur{
+    left: 380px;
+  }
+}
